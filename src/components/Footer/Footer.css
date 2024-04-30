@@ -1,0 +1,40 @@
+/* Estilos para el pie de página */
+footer {
+  background-color: #e8bd10;
+  color: rgb(12, 197, 111);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Estilos para los párrafos dentro del pie de página */
+footer p {
+  font-size: .95rem;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.rrss-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Estilos para los enlaces individuales de redes sociales */
+.rrss-links a {
+  color: white;
+  border: solid 2px white;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s ease;
+}
+
+/* Cambia los colores al pasar el cursor sobre los enlaces */
+.rrss-links a:hover {
+  background-color: rgb(115, 181, 71);
+  color: rgb(16, 15, 15);
+}
